@@ -1,4 +1,4 @@
-function add(n1: number, n2: number, print: boolean) {
+function core_add(n1: number, n2: number, print: boolean) {
     if(print) {
         console.log(n1 + n2);
     }
@@ -10,7 +10,7 @@ const number1 = 5;
 // let number1: number;
 const number2 = 2.5;
 const printResult = true;
-const result = add(number1, number2, printResult);
+const result = core_add(number1, number2, printResult);
 
 
 /**
