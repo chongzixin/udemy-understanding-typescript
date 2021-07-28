@@ -36,7 +36,9 @@ npm install --save-dev lite-server
 },
 ```
 
-6. Run `npm start` to load current app onto `http://localhost:300`
-7. Done. The page will automatically refresh whenever we re-compile our `.ts` file
+6. Run `tsc --init` to create `tsconfig.json` for compilerOptions.
+7. Run `tsc -w` to monitor `.ts` files for changes and auto-compile.
+9. In a separate terminal window, run `npm start` to load current app onto `http://localhost:300`
+10. Done. The page will automatically refresh whenever we re-compile our `.ts` file
 
 A sample can be found in `section-1/base/`
